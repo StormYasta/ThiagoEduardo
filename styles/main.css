@@ -1,12 +1,15 @@
 :root{
     --color-button-primary: #07274E;
-    --color-button-secondary: #EB1960;
+    --color-button-primary-dark: #EB1960;
+    --color-button-secondary: #d9534f;
+    --color-button-secondary-dark: #be3030;
     --color-text-primary: #7a7a7a;
     --color-text-secondary: #6ec1e4;
     --color-text-title: #3e4349;
     --color-background: #f6f6f6;
     --color-primary: #07274E;
     --color-header-background: #cde3ff;
+    --color-border-primary: #cacaca;
 
     font-size: 60%;
 }
@@ -15,6 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: none;
 }
 
 html,
@@ -22,71 +26,9 @@ body,
 #container{
     max-width: 100vw;
     max-height: 100vh;
+    background: var(--color-background);
 }
-
-body{
-    height: 100vh;
-    width: 100%;
-}
-
 
 #container{
-    background: var(--color-background);
     font: 500 1.6rem Roboto;
-}
-
-
-
-.page-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 35rem;
-    background: var(--color-header-background);
-}
-
-.button-container a{
-    font: 600 2rem PT Sans Narrow;
-    color: var(--color-button-primary);
-    cursor: pointer;
-    margin: 0 .4rem;
-    padding: none;
-
-    text-decoration: none;
-
-    background: none;
-    transition: 0.2s;
-}
-
-.button-container a:hover{
-    color: var(--color-button-secondary);
-}
-
-.top-bar-container .thiago-logo{
-    height: 15rem;
-}
-
-#main {
-    width: 100vw;
-    padding: 0 30rem;
-}
-
-.banner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner img{
-    margin-top: 3rem;
-    height: 75rem;
-}
-
-.banner legend{
-    font: 800 2.4rem 'Baloo Chettan 2';
-    color: var(--color-text-secondary);
-
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
 }

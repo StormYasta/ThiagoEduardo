@@ -1,0 +1,171 @@
+
+.page-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 26rem;
+    background: var(--color-header-background);
+}
+
+.button-container a{
+    font: 600 2rem PT Sans Narrow;
+    color: var(--color-button-primary);
+    cursor: pointer;
+    margin: 0 .4rem;
+    padding: none;
+
+    text-decoration: none;
+
+    background: none;
+    transition: 0.2s;
+}
+
+.button-container a:hover{
+    color: var(--color-button-primary-dark);
+}
+
+.top-bar-container .thiago-logo{
+    height: 15rem;
+}
+
+#main{
+    margin: auto 18rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    margin-top: 3rem;
+    height: 75rem;
+    border-radius: 3rem;
+}
+
+.banner legend{
+    font: 800 2.4rem 'Baloo Chettan 2';
+    color: var(--color-text-secondary);
+
+    display: flex;
+    justify-content: center;
+
+    margin: 1.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-border-primary);
+}
+
+.galery{
+    border-bottom: 2px solid var(--color-border-primary);
+    padding-bottom: 3rem;
+    
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1.6rem;
+    
+}
+
+.galery-ind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin: 3.6rem 1rem;
+}
+
+.galery-ind img{
+    height: 17rem;
+    width: 25rem;
+    border-radius: 10rem;
+}
+
+.galery-ind legend{
+    margin-top: 0.8rem;
+}
+
+.hipnoterapia{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid var(--color-border-primary);
+
+}
+
+.hipnoterapia .text{
+    margin-left: 4rem;
+}
+
+.hipnoterapia .text p{
+    font: 300 1.8rem 'Roboto';
+    color: var(--color-text-primary);
+    text-align: justify;
+}
+
+.hipnoterapia .imagem{
+    display: block;
+}
+.hipnoterapia a{
+    width: 20rem;
+    height: 5rem;
+
+    border-radius: 0.8rem;
+    margin: 2rem auto 0;
+    background: var(--color-button-secondary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    font: 400 2.4rem PT Sans Narrow;
+    color: var(--color-background);
+}
+
+.hipnoterapia a:hover{
+    background: var(--color-button-secondary-dark);
+}
+
+.hipnoterapia img{
+    height: 35rem;
+    border-radius: 1.8rem; 
+}
+
+.intro{
+    display: grid;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid var(--color-border-primary);
+}
+
+.intro .passos{
+    display: flex;
+    justify-content: center;
+}
+
+.intro .passos .content{
+    margin: 2rem;
+}
+
+.intro .passos img{
+    width: 6.4rem;
+}
+
+.intro .passos p{
+    text-align: justify;
+    font: 300 1.8rem 'Roboto';
+    color: var(--color-text-primary);
+}
+
+.intro .passos h2{
+    font-size: 2rem;
+}
