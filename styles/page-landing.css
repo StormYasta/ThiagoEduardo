@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 26rem;
     background: var(--color-header-background);
 }
 
@@ -88,6 +87,16 @@
     margin-top: 0.8rem;
 }
 
+.hipno{
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
+    margin-top: 1.6rem;
+}
+
+.hipno h1{
+    text-align: center;
+}
+
 .hipnoterapia{
     display: flex;
     padding: 2rem 0;
@@ -114,8 +123,32 @@
 
 
 .hipnoterapia img{
-    height: 36rem;
+    height: 38rem;
     border-radius: 1.8rem; 
+}
+
+.hipnoterapia a{
+    width: 20rem;
+    height: 5rem;
+
+    border-radius: 0.8rem;
+    margin: 2rem auto 0;
+    background: var(--color-button-secondary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    font: 400 2.4rem PT Sans Narrow;
+    color: var(--color-background);
+}
+
+.hipnoterapia a:hover{
+    background: var(--color-button-secondary-dark);
 }
 
 .intro{
