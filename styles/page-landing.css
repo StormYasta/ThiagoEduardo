@@ -8,7 +8,7 @@
 }
 
 .button-container a{
-    font: 600 2rem PT Sans Narrow;
+    font: 600 2.2rem PT Sans Narrow;
     color: var(--color-button-primary);
     cursor: pointer;
     margin: 0 .4rem;
@@ -24,7 +24,7 @@
     color: var(--color-button-primary-dark);
 }
 
-.top-bar-container .thiago-logo{
+ .thiago-logo{
     height: 15rem;
 }
 
@@ -93,50 +93,28 @@
     padding: 2rem 0;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     border-bottom: 2px solid var(--color-border-primary);
-
-}
-
-.hipnoterapia .text{
-    margin-left: 4rem;
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
 }
 
 .hipnoterapia .text p{
+    margin-left: 4rem;
     font: 300 1.8rem 'Roboto';
     color: var(--color-text-primary);
     text-align: justify;
 }
 
+
 .hipnoterapia .imagem{
     display: block;
 }
-.hipnoterapia a{
-    width: 20rem;
-    height: 5rem;
 
-    border-radius: 0.8rem;
-    margin: 2rem auto 0;
-    background: var(--color-button-secondary);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-decoration: none;
-
-    transition: background 0.2s;
-
-    font: 400 2.4rem PT Sans Narrow;
-    color: var(--color-background);
-}
-
-.hipnoterapia a:hover{
-    background: var(--color-button-secondary-dark);
-}
 
 .hipnoterapia img{
-    height: 35rem;
+    height: 36rem;
     border-radius: 1.8rem; 
 }
 
@@ -145,6 +123,9 @@
     text-align: center;
     padding: 1.5rem 0;
     border-bottom: 2px solid var(--color-border-primary);
+
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
 }
 
 .intro .passos{
@@ -167,5 +148,82 @@
 }
 
 .intro .passos h2{
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.exp p{
+    text-align: justify;
+    font: 300 1.8rem 'Roboto';
+    color: var(--color-text-primary);
+}
+
+.exp{
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
+
+    padding: 1.6rem 0;
+    border-bottom: 2px solid var(--color-border-primary);
+}
+
+.exp h1{
+    text-align: center;
+}
+
+.exp .check .check-ind{
+    display: flex;
+    padding: 0.4rem;
+}
+
+.exp .check .check-ind img{
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.biografia {
+    font: 700 1.8rem PT Sans Narrow;
+    color: var(--color-primary);
+
+    padding: 1.6rem 0;
+}
+
+.biografia h1{
+    text-align: center;
+}
+
+.biografia .bio{
+    display: flex;
+    padding: 1rem 10rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.biografia p{
+    text-align: justify;
+    font: 300 1.8rem 'Roboto';
+    color: var(--color-text-primary);
+    width: auto;
+
+    margin-left: 8rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 26rem 1rem;
+    background: var(--color-header-background);
+}
+
+footer .copy legend{
+    font: 300 1.2rem 'Roboto';
+    color: var(--color-text-primary);
+    text-align: center;
+}
+
+footer p{
+    font: 300 2rem 'Roboto';
+    color: var(--color-text-primary);
+    margin-left: 10rem;
+    text-align: center;
 }
